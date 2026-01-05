@@ -1,0 +1,15 @@
+# Java
+backend/target/
+backend/.mvn/
+backend/*.jar
+backend/.idea/
+
+# Node/Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
