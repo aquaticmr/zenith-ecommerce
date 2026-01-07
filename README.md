@@ -1,7 +1,7 @@
 # 💎 ZENITH | High-Fidelity E-Commerce Collective
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aquaticmr/zenith-ecommerce/main/assets/zenith-logo.png" alt="Zenith Logo" width="200" />
+  <img src="screenshots/icon.jpg" alt="Zenith Logo" width="200" />
 </p>
 
 <p align="center">
@@ -29,14 +29,27 @@
 ## 📸 Interface Preview
 
 <p align="center">
-  <img src="YOUR_HOMEPAGE_IMAGE_LINK" alt="Zenith Home Page" width="850" style="border-radius: 10px; border: 1px solid #eaeaea;" />
+  
   <br />
   <em>The Zenith Landing Interface featuring atmospheric auras and geometric depth.</em>
 </p>
 
 <div align="center">
-  <img src="YOUR_LOGIN_IMAGE_LINK" alt="Login Interface" width="410" style="border-radius: 10px;" />
-  <img src="YOUR_PRODUCT_IMAGE_LINK" alt="Product Details" width="410" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 185426.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 185513.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 185553.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 185635.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 185748.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190145.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190223.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190257.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190410.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190443.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190639.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190721.png" width="910" style="border-radius: 10px;" />
+  <img src="screenshots/Screenshot 2026-01-05 190908.png" width="910" style="border-radius: 10px;" />
+
+  
 </div>
 
 ---
