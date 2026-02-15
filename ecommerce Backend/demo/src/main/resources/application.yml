@@ -1,41 +1,41 @@
 spring:
-
   application:
     name: Ecommerce
   datasource:
-    url: jdbc:mysql://localhost:3306/ecommerce_db
-    username: root
-    password: Dairymilk@123
+    # These variables are automatically provided by Railway's MySQL service
+    url: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}?createDatabaseIfNotExist=true
+    username: ${MYSQLUSER}
+    password: ${MYSQLPASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-
+  
   security:
     oauth2:
       client:
         registration:
           google:
-            client-id: 618095817112-qj8ebfrg6gfs1hdq0oi5nb6ol6mlkvr9.apps.googleusercontent.com
-            client-secret: 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
+            client-id: ${GOOGLE_ID}
+            client-secret: ${GOOGLE_SECRET}
           github:
-            client-id: Iv23liEzO1O3PiF8R07j
-            client-secret: Ca4BRa3SPhCgetnBX2UlrTeQKZlciDV9CEzsM7WGq9w=
+            client-id: ${GITHUB_ID}
+            client-secret: ${GITHUB_SECRET}
+
   mail:
     host: smtp.gmail.com
     port: 587
-    username: Mohit4rudrakar@gmail.com
-    password: jtrujzbirgaopqeo
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
     properties:
       mail.smtp.auth: true
       mail.smtp.starttls.enable: true
 
 app:
-  jwtSecret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  jwtSecret: ${JWT_SECRET}
   cloudinary:
-    cloud-name: dsxiuwfgh
-    api-key: 913641382464613
-    api-secret: HbaYk_0PXL8bQKPXPcKqOB2Few4
+    cloud-name: ${CLOUDINARY_NAME}
+    api-key: ${CLOUDINARY_KEY}
+    api-secret: ${CLOUDINARY_SECRET}
   gemini:
-    api-key: AIzaSyBpoaDpGLWQOppkNtV-nxQ7AoFAdTitf18
-
+    api-key: ${GEMINI_KEY}
